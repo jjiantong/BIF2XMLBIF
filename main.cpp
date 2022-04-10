@@ -2,26 +2,16 @@
 #include <cstdio>
 #include <cstdlib>
 #include <vector>
-#include <string>
-#include <sstream>
 #include <fstream>
 #include "tinyxml2.h"
-#include "helper.cpp"
+#include "helper.h"
 
 using namespace std;
 using namespace tinyxml2;
 
-string double2string(double do_b) {
-    string str1;
-    stringstream ss;
-    ss<<do_b;
-    ss>>str1;
-    return str1;
-}
-
 int main() {
 
-    string path = "alarm.bif";
+    string path = "../alarm.bif";
     ifstream in_file;
     in_file.open(path);
     if (!in_file.is_open()) {
@@ -188,7 +178,7 @@ int main() {
         getline(in_file, line);
     }
 
-    doc.SaveFile("alarm.xml");
+    doc.SaveFile("../alarm.xml");
 
     cout << "Hello, World!" << endl;
     return 0;

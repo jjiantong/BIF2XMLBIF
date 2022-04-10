@@ -1,9 +1,15 @@
 //
 // Created by jjt on 2022/4/8.
 //
-#include <iostream>
+#include "helper.h"
 
-using namespace std;
+string double2string(double do_b) {
+    string str1;
+    stringstream ss;
+    ss<<do_b;
+    ss>>str1;
+    return str1;
+}
 
 /**
  * @brief: trim all \t, \n, \r and whitespace characters on the right of a string.
@@ -53,12 +59,9 @@ vector<string> Split(string &s, string delimiter) {
     vector<string> result;
     size_t begin = 0, end = 0;
     while ((end=s.find_first_of(delimiter, begin)) != string::npos) {
-//        cout << "while - result.push back //" << s.substr(begin, end-begin) << "//" << endl;
         result.push_back(s.substr(begin, end-begin));
         begin = (++end);
     }
-//    cout << "result.push back //" << s.substr(begin, s.size()-begin) << "//" << endl;
     result.push_back(s.substr(begin, s.size()-begin)); // the last one
     return result;
 }
-
