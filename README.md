@@ -18,4 +18,4 @@ Or you can use the command to build and run:
 mkdir build && cd build && cmake .. && make && ./BIF2XMLBIF
 ```
 
-Note: change Lines 14 and 181 to use your own files.
+Note: change Lines 14-15 to use your own files.
