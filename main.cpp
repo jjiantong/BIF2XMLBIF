@@ -11,12 +11,14 @@ using namespace tinyxml2;
 
 int main() {
 
-    string path = "../alarm.bif";
+    string src = "../alarm.bif";
+    string des = "../alarm.xml";
+
     ifstream in_file;
-    in_file.open(path);
+    in_file.open(src);
     if (!in_file.is_open()) {
         fprintf(stderr, "Error in function %s!", __FUNCTION__);
-        fprintf(stderr, "Unable to open file %s!", path.c_str());
+        fprintf(stderr, "Unable to open file %s!", src.c_str());
         exit(1);
     }
 
@@ -178,7 +180,7 @@ int main() {
         getline(in_file, line);
     }
 
-    doc.SaveFile("../alarm.xml");
+    doc.SaveFile(des.c_str());
 
     cout << "Hello, World!" << endl;
     return 0;
