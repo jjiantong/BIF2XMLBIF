@@ -9,6 +9,9 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <cstdio>
+#include <cstdlib>
+#include <fstream>
 
 using namespace std;
 
@@ -19,5 +22,7 @@ string TrimRightSemicolon(string s);
 string TrimLeft(string s);
 string Trim(string &s);
 vector<string> Split(string &s, string delimiter);
+
+void CorrectTemplate(ifstream &in_file); // this function can be used to generate convertor
 
 #endif //BIF2XMLBIF_HELPER_H

@@ -8,6 +8,10 @@ CMakeFiles/BIF2XMLBIF.dir/main.cpp.o
  /Users/jjt/work/CLion/BIF2XMLBIF/helper.h
  /Users/jjt/work/CLion/BIF2XMLBIF/main.cpp
  /Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.h
+ /Users/jjt/work/CLion/BIF2XMLBIF/variable.h
 CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o
  /Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.cpp
  /Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.h
+CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o
+ /Users/jjt/work/CLion/BIF2XMLBIF/variable.cpp
+ /Users/jjt/work/CLion/BIF2XMLBIF/variable.h

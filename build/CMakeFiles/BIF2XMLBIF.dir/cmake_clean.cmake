@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BIF2XMLBIF.dir/helper.cpp.o"
   "CMakeFiles/BIF2XMLBIF.dir/main.cpp.o"
   "CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o"
+  "CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

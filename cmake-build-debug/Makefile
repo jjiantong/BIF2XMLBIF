@@ -197,6 +197,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+network.o: network.cpp.o
+
+.PHONY : network.o
+
+# target to build an object file
+network.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/network.cpp.o
+.PHONY : network.cpp.o
+
+network.i: network.cpp.i
+
+.PHONY : network.i
+
+# target to preprocess a source file
+network.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/network.cpp.i
+.PHONY : network.cpp.i
+
+network.s: network.cpp.s
+
+.PHONY : network.s
+
+# target to generate assembly for a file
+network.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/network.cpp.s
+.PHONY : network.cpp.s
+
 tinyxml2.o: tinyxml2.cpp.o
 
 .PHONY : tinyxml2.o
@@ -224,6 +251,33 @@ tinyxml2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.s
 .PHONY : tinyxml2.cpp.s
 
+variable.o: variable.cpp.o
+
+.PHONY : variable.o
+
+# target to build an object file
+variable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o
+.PHONY : variable.cpp.o
+
+variable.i: variable.cpp.i
+
+.PHONY : variable.i
+
+# target to preprocess a source file
+variable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/variable.cpp.i
+.PHONY : variable.cpp.i
+
+variable.s: variable.cpp.s
+
+.PHONY : variable.s
+
+# target to generate assembly for a file
+variable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/variable.cpp.s
+.PHONY : variable.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -239,9 +293,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... network.o"
+	@echo "... network.i"
+	@echo "... network.s"
 	@echo "... tinyxml2.o"
 	@echo "... tinyxml2.i"
 	@echo "... tinyxml2.s"
+	@echo "... variable.o"
+	@echo "... variable.i"
+	@echo "... variable.s"
 .PHONY : help
 
 

@@ -103,9 +103,22 @@ CMakeFiles/BIF2XMLBIF.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BIF2XMLBIF.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jjt/work/CLion/BIF2XMLBIF/main.cpp -o CMakeFiles/BIF2XMLBIF.dir/main.cpp.s
 
+CMakeFiles/BIF2XMLBIF.dir/network.cpp.o: CMakeFiles/BIF2XMLBIF.dir/flags.make
+CMakeFiles/BIF2XMLBIF.dir/network.cpp.o: ../network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BIF2XMLBIF.dir/network.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BIF2XMLBIF.dir/network.cpp.o -c /Users/jjt/work/CLion/BIF2XMLBIF/network.cpp
+
+CMakeFiles/BIF2XMLBIF.dir/network.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BIF2XMLBIF.dir/network.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jjt/work/CLion/BIF2XMLBIF/network.cpp > CMakeFiles/BIF2XMLBIF.dir/network.cpp.i
+
+CMakeFiles/BIF2XMLBIF.dir/network.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BIF2XMLBIF.dir/network.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jjt/work/CLion/BIF2XMLBIF/network.cpp -o CMakeFiles/BIF2XMLBIF.dir/network.cpp.s
+
 CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o: CMakeFiles/BIF2XMLBIF.dir/flags.make
 CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o: ../tinyxml2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o -c /Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.cpp
 
 CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.i: cmake_force
@@ -116,21 +129,38 @@ CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.cpp -o CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.s
 
+CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o: CMakeFiles/BIF2XMLBIF.dir/flags.make
+CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o: ../variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o -c /Users/jjt/work/CLion/BIF2XMLBIF/variable.cpp
+
+CMakeFiles/BIF2XMLBIF.dir/variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BIF2XMLBIF.dir/variable.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jjt/work/CLion/BIF2XMLBIF/variable.cpp > CMakeFiles/BIF2XMLBIF.dir/variable.cpp.i
+
+CMakeFiles/BIF2XMLBIF.dir/variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BIF2XMLBIF.dir/variable.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jjt/work/CLion/BIF2XMLBIF/variable.cpp -o CMakeFiles/BIF2XMLBIF.dir/variable.cpp.s
+
 # Object files for target BIF2XMLBIF
 BIF2XMLBIF_OBJECTS = \
 "CMakeFiles/BIF2XMLBIF.dir/helper.cpp.o" \
 "CMakeFiles/BIF2XMLBIF.dir/main.cpp.o" \
-"CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o"
+"CMakeFiles/BIF2XMLBIF.dir/network.cpp.o" \
+"CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o" \
+"CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o"
 
 # External object files for target BIF2XMLBIF
 BIF2XMLBIF_EXTERNAL_OBJECTS =
 
 BIF2XMLBIF: CMakeFiles/BIF2XMLBIF.dir/helper.cpp.o
 BIF2XMLBIF: CMakeFiles/BIF2XMLBIF.dir/main.cpp.o
+BIF2XMLBIF: CMakeFiles/BIF2XMLBIF.dir/network.cpp.o
 BIF2XMLBIF: CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o
+BIF2XMLBIF: CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o
 BIF2XMLBIF: CMakeFiles/BIF2XMLBIF.dir/build.make
 BIF2XMLBIF: CMakeFiles/BIF2XMLBIF.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable BIF2XMLBIF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable BIF2XMLBIF"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BIF2XMLBIF.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

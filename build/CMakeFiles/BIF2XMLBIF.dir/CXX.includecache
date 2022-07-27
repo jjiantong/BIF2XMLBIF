@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/jjt/work/CLion/BIF2XMLBIF/helper.cpp
-helper.h
-/Users/jjt/work/CLion/BIF2XMLBIF/helper.h
-
 /Users/jjt/work/CLion/BIF2XMLBIF/helper.h
 iostream
 -
@@ -18,6 +14,12 @@ string
 vector
 -
 sstream
+-
+cstdio
+-
+cstdlib
+-
+fstream
 -
 
 /Users/jjt/work/CLion/BIF2XMLBIF/main.cpp
@@ -35,20 +37,8 @@ tinyxml2.h
 /Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.h
 helper.h
 /Users/jjt/work/CLion/BIF2XMLBIF/helper.h
-
-/Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.cpp
-tinyxml2.h
-/Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.h
-new
--
-stddef.h
--
-stdarg.h
--
-cstddef
--
-cstdarg
--
+variable.h
+/Users/jjt/work/CLion/BIF2XMLBIF/variable.h
 
 /Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.h
 ctype.h
@@ -78,5 +68,25 @@ stdint.h
 android/log.h
 -
 assert.h
+-
+
+/Users/jjt/work/CLion/BIF2XMLBIF/variable.cpp
+variable.h
+/Users/jjt/work/CLion/BIF2XMLBIF/variable.h
+
+/Users/jjt/work/CLion/BIF2XMLBIF/variable.h
+iostream
+-
+string
+-
+vector
+-
+sstream
+-
+cstdio
+-
+cstdlib
+-
+fstream
 -
 

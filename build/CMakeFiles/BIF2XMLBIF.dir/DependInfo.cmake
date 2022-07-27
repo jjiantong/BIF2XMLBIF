@@ -7,8 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jjt/work/CLion/BIF2XMLBIF/helper.cpp" "/Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles/BIF2XMLBIF.dir/helper.cpp.o"
   "/Users/jjt/work/CLion/BIF2XMLBIF/main.cpp" "/Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles/BIF2XMLBIF.dir/main.cpp.o"
   "/Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.cpp" "/Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o"
+  "/Users/jjt/work/CLion/BIF2XMLBIF/variable.cpp" "/Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

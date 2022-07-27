@@ -89,10 +89,22 @@
 		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/main.cpp">
 			<Option target="BIF2XMLBIF"/>
 		</Unit>
+		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/network.cpp">
+			<Option target="BIF2XMLBIF"/>
+		</Unit>
+		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/network.h">
+			<Option target="BIF2XMLBIF"/>
+		</Unit>
 		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.cpp">
 			<Option target="BIF2XMLBIF"/>
 		</Unit>
 		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/tinyxml2.h">
+			<Option target="BIF2XMLBIF"/>
+		</Unit>
+		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/variable.cpp">
+			<Option target="BIF2XMLBIF"/>
+		</Unit>
+		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/variable.h">
 			<Option target="BIF2XMLBIF"/>
 		</Unit>
 		<Unit filename="/Users/jjt/work/CLion/BIF2XMLBIF/CMakeLists.txt">

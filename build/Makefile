@@ -204,6 +204,33 @@ tinyxml2.cpp.s:
 	$(MAKE) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.s
 .PHONY : tinyxml2.cpp.s
 
+variable.o: variable.cpp.o
+
+.PHONY : variable.o
+
+# target to build an object file
+variable.cpp.o:
+	$(MAKE) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o
+.PHONY : variable.cpp.o
+
+variable.i: variable.cpp.i
+
+.PHONY : variable.i
+
+# target to preprocess a source file
+variable.cpp.i:
+	$(MAKE) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/variable.cpp.i
+.PHONY : variable.cpp.i
+
+variable.s: variable.cpp.s
+
+.PHONY : variable.s
+
+# target to generate assembly for a file
+variable.cpp.s:
+	$(MAKE) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/variable.cpp.s
+.PHONY : variable.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... tinyxml2.o"
 	@echo "... tinyxml2.i"
 	@echo "... tinyxml2.s"
+	@echo "... variable.o"
+	@echo "... variable.i"
+	@echo "... variable.s"
 .PHONY : help
 
 
