@@ -11,8 +11,8 @@ using namespace tinyxml2;
 
 int main() {
 
-    string src = "../alarm.bif";
-    string des = "../alarm.xml";
+    string src = "/Users/jjt/work/research_project/BN/inference/dataset/BN/win95pts/win95pts.bif";
+    string des = "/Users/jjt/work/research_project/BN/inference/dataset/BN/win95pts/win95pts2.xml";
 
     ifstream in_file;
     in_file.open(src);
