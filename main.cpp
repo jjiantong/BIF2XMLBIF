@@ -7,17 +7,67 @@
 using namespace std;
 
 void Others(Network *net) {
-//    cout << "nodes = list(node.a, node.t, node.s, node.l, node.b, node.e, node.x, node.d)\n"
-//            "# returning a network that is compiled\n"
-//            "net = createNetwork(nodes, compile=TRUE)";
-//    for (int i = 0; i < net->num_of_vars - 1; ++i) {
-//        cout << ""
-//    }
+    cout << endl << "nodes = list(";
+    for (int i = 0; i < net->num_of_vars - 1; ++i) {
+        cout << "node" << i << ", ";
+    }
+    cout << "node" << net->num_of_vars - 1 << ")" << endl;
+
+    cout << "net = createNetwork(nodes, compile=TRUE)" << endl << endl;
+
+
+    string src2 = "/Users/jjt/work/research_project/BN/inference/dataset/BN/win95pts/win95pts_2w_1";
+    ifstream in_file2;
+    in_file2.open(src2);
+    if (!in_file2.is_open()) {
+        fprintf(stderr, "Error in function %s!", __FUNCTION__);
+        fprintf(stderr, "Unable to open file %s!", src2.c_str());
+        exit(1);
+    }
+
+    cout << "start_time <- Sys.time()" << endl;
+    // e.g. 1 15:3 5:1 22:1 19:0 11:0 24:2 6:1
+    string line;
+    vector<string> parsed_line;
+    for (int i = 0; i < 20000; ++i) {
+        cout << "prob = queryNetwork(net, c(\"" << net->all_vars[0]->name << "\"), ";
+        cout << "list(";
+
+        getline(in_file2, line);
+        parsed_line = Split(line, " ");
+
+        for (int j = 1; j < parsed_line.size() - 1; ++j) {
+            // just skip the first one
+            string svar = Split(parsed_line.at(j), ":").at(0);
+            string sval = Split(parsed_line.at(j), ":").at(1);
+            int var = atoi(svar.c_str());
+            int val = atoi(sval.c_str());
+
+            cout << "c(\"" << net->all_vars[var]->name << "\", \"";
+            cout << net->all_vars[var]->poss_vals[val] << "\"), ";
+        }
+
+        string svar = Split(parsed_line.at(parsed_line.size() - 1), ":").at(0);
+        string sval = Split(parsed_line.at(parsed_line.size() - 1), ":").at(1);
+        int var = atoi(svar.c_str());
+        int val = atoi(sval.c_str());
+
+        cout << "c(\"" << net->all_vars[var]->name << "\", \"";
+        cout << net->all_vars[var]->poss_vals[val] << "\")))" << endl;
+    }
+    cout << "prob" << endl;
+
+    cout << "stop_time <- Sys.time()\n"
+            "time <- stop_time - start_time\n"
+            "time" << endl;
+
 }
 
 int main() {
 
-    string src = "/Users/jjt/work/research_project/BN/inference/dataset/BN/alarm/alarm.bif";
+    cout << "library(runbbayes)" << endl << endl;
+
+    string src = "/Users/jjt/work/research_project/BN/inference/dataset/BN/win95pts/win95pts.bif";
 //    string des = "/Users/jjt/work/research_project/BN/inference/dataset/BN/win95pts/win95pts1.xml";
 
     ifstream in_file;

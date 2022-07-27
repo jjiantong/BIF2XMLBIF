@@ -74,12 +74,12 @@ clean: CMakeFiles/BIF2XMLBIF.dir/clean
 CMakeFiles/BIF2XMLBIF.dir/all:
 	$(MAKE) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/depend
 	$(MAKE) -f CMakeFiles/BIF2XMLBIF.dir/build.make CMakeFiles/BIF2XMLBIF.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target BIF2XMLBIF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target BIF2XMLBIF"
 .PHONY : CMakeFiles/BIF2XMLBIF.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BIF2XMLBIF.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BIF2XMLBIF.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jjt/work/CLion/BIF2XMLBIF/build/CMakeFiles 0
 .PHONY : CMakeFiles/BIF2XMLBIF.dir/rule

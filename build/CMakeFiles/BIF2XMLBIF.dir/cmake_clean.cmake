@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "BIF2XMLBIF.pdb"
   "CMakeFiles/BIF2XMLBIF.dir/helper.cpp.o"
   "CMakeFiles/BIF2XMLBIF.dir/main.cpp.o"
+  "CMakeFiles/BIF2XMLBIF.dir/network.cpp.o"
   "CMakeFiles/BIF2XMLBIF.dir/tinyxml2.cpp.o"
   "CMakeFiles/BIF2XMLBIF.dir/variable.cpp.o"
 )

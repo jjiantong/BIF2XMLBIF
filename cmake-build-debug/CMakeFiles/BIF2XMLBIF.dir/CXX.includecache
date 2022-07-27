@@ -22,7 +22,15 @@ cstdlib
 fstream
 -
 
-/Users/jjt/work/CLion/BIF2XMLBIF/network.cpp
+/Users/jjt/work/CLion/BIF2XMLBIF/main.cpp
+iostream
+-
+cstdio
+-
+cstdlib
+-
+vector
+-
 network.h
 /Users/jjt/work/CLion/BIF2XMLBIF/network.h
 
